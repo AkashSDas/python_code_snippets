@@ -1,0 +1,10 @@
+total 56
+drwxr-xr-x   9 akashdas  staff   288B Feb 17 22:31 .
+drwxr-xr-x   5 akashdas  staff   160B Feb 12 22:04 ..
+-rw-r--r--@  1 akashdas  staff    10K Feb 17 22:31 .DS_Store
+drwxr-xr-x  13 akashdas  staff   416B Feb  5 17:00 Matplotlib
+drwxr-xr-x  11 akashdas  staff   352B Feb 11 19:39 MySQL Connector
+drwxr-xr-x  30 akashdas  staff   960B Feb 12 10:25 Tkinter
+-rw-r--r--@  1 akashdas  staff   5.2K Feb 17 21:28 context-manager.py
+-rw-r--r--@  1 akashdas  staff     0B Feb 17 22:44 output.txt
+-rw-r--r--@  1 akashdas  staff   4.7K Feb 17 22:44 subprocess-module.py

@@ -1,0 +1,35 @@
+# ###### Introduction to Numpy ######
+
+1. What is NumPy:
+    It is a multidimensional array libary
+    We can store data in 1D array, 2D array, 3D array and much more
+
+2. How are Lists different from Numpy?
+    Lists are too slow while numpy arrays are faster than them
+    Because numpy uses fixed type which means that:
+        - When we store something it read as bits by the computer 
+        - Like 5 ---> 00000101 (8 bits)
+        - when we use numpy this is going to casted to int32 type (00000000 00000000 00000000 00000101) by default, we can also specify within numpy to store it in int16 or int8
+        - with list we have store much more thing then integer itself
+        - It consists of 4 different types:- 
+              1. size
+              2. reference count (how many times that integer is pointed)
+              3. object type
+              4. object value
+        - This in binary is too big space 
+        - Since numpy reads less memory therefore it is faster than list
+        - Another reason is that there is not type checking when iterating through objects
+
+3. Anoher reason to use Numpy:
+    List uses memory that is scattered 
+    Numpy uses contiguous memory
+
+4. Benifits of using contiguous memory 
+    - Our cpu's have this SIMD (Single Instruction Multiple Data) Vector Processing Units, when memory is next to each other we can use this. Like say we want to do addition of lot of values then instead of adding two values at a time we can use SIMD Vector Units and perform computation on all the values at once
+    - Also there is effective cache utilization
+
+5. Application of Numpy:
+    - Mathematics (Replacement of MATLAB)
+    - Plotting (Matplotlib)
+    - Backend (Pandas, Connect 4, Digital Photography)
+    - Machine Learning
