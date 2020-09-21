@@ -15,7 +15,7 @@ r = sr.Recognizer()
 
 with sr.Microphone() as source:
     print("Speak Anything: ")
-    audion = r.listen(source)  # r.listen listen's to source 
+    audio = r.listen(source)  # r.listen listen's to source 
     
     try:
         text = r.recognize_google(audio)  
